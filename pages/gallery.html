@@ -2,60 +2,56 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
     <title>Галерея - Всі фото</title>
 </head>
-<body bgcolor="#f4f4f4">
+<body>
+    <div class="container">
+        <nav class="main-nav">
+            <p>
+                <a href="../index.html">Головна</a>
+                <span class="current-page">Галерея</span>
+                <a href="../pages/contact.html">Контакти</a>
+            </p>
+        </nav>
 
-    <div align="center">
-        <p>
-            <a href="../index.html">Головна</a> | 
-            <b>Галерея</b> | 
-            <a href="../pages/contact.html">Контакти</a>
-        </p>
-
-        <hr width="90%">
+        <hr class="separator">
         <h1>Декілька атмосферних фото</h1>
 
-        <table border="0" cellpadding="15" cellspacing="0">
-          <tr>
-    <td align="center" colspan="3">
-        <img src="../photo/obkladynka.jpg" width="300" border="3">
-        <br><i>Головна обкладинка українського видання</i>
-    </td>
-</tr>
-            <tr>
-                <td align="center">
-                    <img src="../photo/1.jpg" width="250" border="3">
-                    <br><i>Кадр №1</i>
-                </td>
-                 <td align="center">
-                    <img src="../photo/2.jpg" width="250" border="3">
-                    <br><i>Кадр №2</i>
-                </td>
-                <td align="center">
-                    <img src="../photo/3.webp" width="250" border="3">
-                    <br><i>Атмосфера </i>
-                </td>
-            </tr>
+        <div class="first-gallery-img">
+            <img src="../photo/obkladynka.jpg" alt="Головна обкладинка" class="gallery-img">
+            <p><i>Крадійка книжок. Кадри</i></p>
+        </div>
 
-            <tr>
-                <td align="center">
-                    <img src="../photo/4.jpg" width="250" border="3">
-                    <br><i>Кадр №4</i>
-                </td>
-                <td align="center">
-                    <img src="../photo/5.jpg" width="250" border="3">
-                    <br><i>Кадр №5</i>
-                </td>
-            </tr>
-        </table>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="../photo/1.jpg" alt="Кадр 1" class="gallery-img">
+                <p><i>Кадр №1</i></p>
+            </div>
+            <div class="gallery-item">
+                <img src="../photo/2.jpg" alt="Кадр 2" class="gallery-img">
+                <p><i>Кадр №2</i></p>
+            </div>
+            <div class="gallery-item">
+                <img src="../photo/3.webp" alt="Атмосфера" class="gallery-img">
+                <p><i>Атмосфера</i></p>
+            </div>
+            <div class="gallery-item">
+                <img src="../photo/4.jpg" alt="Кадр 4" class="gallery-img">
+                <p><i>Кадр №4</i></p>
+            </div>
+            <div class="gallery-item">
+                <img src="../photo/5.jpg" alt="Кадр 5" class="gallery-img">
+                <p><i>Кадр №5</i></p>
+            </div>
+        </div>
 
-        <hr width="90%">
-        <p>&copy; 2026. Інна Одовийчук. Навчання.</p>
-          <p>P.S. Створено, в тому числі,
-             з допомогою ШІ ))</p>  
-        
+        <footer class="footer-info">
+            <hr class="separator">
+            <p>&copy; 2026. Інна Одовийчук. Навчання.</p>
+          
+        </footer>
     </div>
-
 </body>
 </html>
